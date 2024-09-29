@@ -19,8 +19,8 @@ function Navigation(){
 
             <div className='profile-container'>
                 <img src={profileImg} alt='Profile Image' className ="profileImg"></img>
-                <h6 className='textName'>Vivek Ranjan</h6>
-                <h6 className='tag'>@me-vivu</h6>
+                <h6 className='textName'>Nitish kumar</h6>
+                <h6 className='tag'>@nitish-nitin</h6>
             </div>
 
             <div className = "divContainer">
