@@ -1,0 +1,104 @@
+
+.main{
+    display: flex;
+
+}
+
+.notes-nav{
+    padding-right: 200px;
+}
+.container{
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(203, 30, 30);
+    
+}
+.branch{
+    width: 500px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(184, 17, 17);
+}
+.semester{
+    width: 500px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(184, 17, 17);
+}
+.note{
+    /* width: 600px;
+    height: 200px; */
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(55, 212, 139);
+    
+}   
+
+.subjects{
+    display: grid;
+}
+.firstyear{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.PhysicsCycle{
+    padding: 10px;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.container2 {
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    max-width: 800px;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+
+}
+.item a{
+    color: black ;
+}
+
+.item2 a{
+    color: black ;
+}
+.item {
+    text-align: center;
+    background-image: url("../assets/img/notes.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+.item2 {
+    text-align: center;
+    background-image: url("../assets/img/notes.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+.item p {
+    padding-top: 50px;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub{
+    padding-top: 50px;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,71 @@
+.home-screen{
+    display:flex;
+    height: 100vh;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+
+
+.post-display{
+    display: flex;
+    flex: 3;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    
+    margin: 10px;
+    margin-top: 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    
+
+}
+
+.others-display{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    
+}
+
+.nav{
+    
+    flex: 1;
+    align-self: flex-start;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.text{
+    font-weight: bold;
+    
+}
+
+.disc-btn{
+    height: 35px;
+    padding: 0px;
+    border-radius: 8px;
+    background-color: rgb(108, 151, 243);
+    font-weight: bold;
+}
+
+.disc-btn:hover{
+    color: white;
+    background-color: rgb(156, 156, 192);
+}
+
+.upload-sec{
+    
+    width: 100%;
+    margin-top: 40px;
+    flex-direction: column;
+}
