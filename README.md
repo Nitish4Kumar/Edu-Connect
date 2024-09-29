@@ -5,13 +5,17 @@ The Student Collaboration Platform is a centralized hub designed to enhance stud
 Key Features:
 
 Study Materials Sharing: Upload and share study resources across subjects.
+
 Project Collaboration: Collaborate on academic and extracurricular projects with ease.
+
 Career Guidance: Seek mentorship and career advice from peers and experts.
-\\
+
 Tech Stack:
 
 Frontend: React.js, JavaScript
+
 Backend: Node.js
+
 Database: MongoDB
 
 This platform encourages teamwork, resource sharing, and career development among students.
